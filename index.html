@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go shopping | store</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <header class="main-header">
+    <div class="cn">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">STORE</a></li>
+          <li><a href="">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="brand-name">Go shopping</h1>
+    </div>
+    <img class="background-img" src="img/background.jpg" alt="">
+  </header>
+  
+  <section class="container content-section">
+    <h2 class="section-header">Items</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Apple watch</span>
+        <img src="img/1.webp" alt="">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$837</span>
+          <button class="btn shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        <p class="stock-stats">on stock</p>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">iphon 12 pro</span>
+        <img src="img/3.jpeg" alt="">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$1299</span>
+          <button class="btn shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        <p class="stock-stats">out of stock</p>
+
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title"> Smart mouse</span>
+        <img src="img/5.jpeg" alt="">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$249</span>
+          <button class="btn shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        <p class="stock-stats">on stock</p>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Lenovo laptop</span>
+        <img src="img/6.jpeg" alt="">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$1900</span>
+          <button class="btn shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        <p class="stock-stats">on stock</p>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Tech glasses</span>
+        <img src="img/7.jpeg" alt="">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$312</span>
+          <button class="btn shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        <p class="stock-stats">on stock</p>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">The magic mug</span>
+        <img src="img/8.avif" alt="">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$170</span>
+          <button class="btn shop-item-button" type="button">ADD TO CART</button>
+        </div>
+        <p class="stock-stats">on stock</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cart-section">
+    <h2 class="section-header">CART</h2>
+
+    <div class="cart-row">
+      <span class="ct-item">ITEM</span>
+      <span class="ct-price">PRICE</span>
+      <span class="ct-quantity">QUANTITY</span>
+    </div>
+
+    <div class="the-line"></div>
+
+    <div class="cart-column">
+      <div class="cart-items">
+        <img src="img/6.jpeg" alt="">
+        <p>apple watch</p>
+      </div>
+  
+      <div class="cart-price">
+        <p>$19.88</p>
+      </div>
+  
+      <div class="cart-quantity">
+        <input class="quantity-count" type="number" min="1" max="12">
+        <button class="remove-btn">REMOVE</button>
+      </div>
+    </div>
+    
+    <div class="the-line"></div>
+
+    <div class="cart-total">
+      <strong class="cart-total-title">Total price</strong>
+      <span class="cart-total-price">$0</span>
+    </div>
+    <button class="purchase-btn">Purchase</button> 
+  </section>
+  <section class="footer">
+    <p>copyright @ go shopping</p>
+  </section>
+
+</body>
+</html>
